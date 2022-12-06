@@ -1,0 +1,63 @@
+body{  /*estilização do corpo do site*/
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%; /*total de ocupação do texto no navegador*/
+    margin: 0 auto; /*distribuição proporcional do conteúdo dentro dos 90%*/
+    background: linear-gradient(to right,#0b1726, #1f3f66); /*degrade*/
+}
+
+header{ /*definir cabeçalho*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(0, 0%, 9%);
+    border-radius: 5px;/*arredondamento dos cantos*/
+    margin-top: 10px;
+}
+
+.logo img{ /*estilizando a imagem do logo*/
+    width: 45%; /*define o tamanho da imagem em relação ao navegador(aumento ou diminuição da largura)*/
+    padding-top: 50px;
+}
+
+.navegacao{
+    overflow: hidden;
+}
+
+.navegacao a{ /*estilizando hiperlinks*/
+    float: right; /*disposição dos hiperlinks a direita*/
+    color: rgb(173,173,173);
+    text-decoration: none; /*elimina sublinhado*/
+    padding: 10px;
+}
+
+.navegacao a:hover{
+    color: #e32936;
+}
+
+.principal{
+    display: flex; /*organiza a disposição do conteúdo, nesse caso colocou as divs de conteúdo uma ao lado da outra*/
+    flex-direction: row;
+}                                                                                                                                                                                                                                                                                        
+
+.conteudo{ /*estilizando o conteúdo*/
+    float: left; /*disposição do conteudo*/
+    border-radius: 5px;
+    margin: 15px 5px 25px 5px;
+    background-color: gainsboro;
+    text-align: justify;
+    padding: 15px;
+    box-shadow: 10px 10px 10px #08101a98; /*sombreamento tamanho, distanciamento, degrade, cor*/
+}
+
+.rodape{
+    color: darkgrey;
+    font-size: 10px;
+    text-align: center;
+    padding: 2px;
+}
+
+@media screen and (max-width:600px){ /*responsividade, troca de tamanho/caracteristicas com a mudança de tamanho de tela*/
+    body, .principal, .conteudo{ /*definir os escopos a serem aterados*/
+        width: 100%;
+        flex-direction: column;
+        padding: 0%;
+    }
+}

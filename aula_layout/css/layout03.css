@@ -1,0 +1,46 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(to right, #405059, #65888c);
+}
+
+header{
+    background-color: #400b0b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.logo img{
+    width: 45%;
+    padding-top: 50px;
+}
+
+.navegacao{
+    overflow: hidden;
+}
+
+.navegacao a{ 
+    float: right;
+    color: rgb(158, 158, 158);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.conteudo{
+    float: left;
+    background-color: #730303;
+    text-align: justify;
+    padding: 15px;
+    color: rgb(168, 168, 168);
+    box-shadow: 5px 10px 20px #a6030369;
+    border-radius: 5px;
+}
+
+.rodape{
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}

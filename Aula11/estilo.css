@@ -1,0 +1,18 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darksalmon;
+    color: firebrick;
+}
+h1{
+    background-color: brown;
+    color: burlywood;
+    text-align: center;
+}
+h2{
+    color: darkgoldenrod;
+    background-color: darkred;
+}
+h3{
+    background-color: maroon;
+    color: lightsalmon;
+}

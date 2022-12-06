@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(213, 213, 213);
+}
+
+header{
+    border-radius: 10px;
+    margin: 10px;
+    width: 100%;
+    background-color: rgb(104, 158, 194);
+}
+
+.logo img{
+    width: 40%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.navegacao a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    flex-direction: row;
+    position: relative;
+    top: 10%;
+    right: -91.5%;
+}
+
+.navegacao a:hover{
+    color: darkred;
+}
+
+.video{
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    background-color: rgb(255, 202, 58);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.pontos{
+    margin: 30px;
+    border-radius: 10px;
+    background-color: rgb(255, 202, 58);
+    padding: 10px;
+    padding-left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imgpa{
+    text-align: center;
+}
+
+.imgsanta{
+    text-align: center;
+}
+
+.hino{
+    background-color: rgb(255, 202, 58);
+    margin: 30px;
+    border-radius: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 30%;
+    margin-left: 30%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.culinaria{
+    background-color: rgb(255, 202, 58);
+    margin: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.imgpi{
+    padding-left: 20px;
+}
+
+.imgit{
+    text-align: center;
+}
+
+.imgpc{
+    text-align: center;
+}
+
+.imgter{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+}
+
+.imgchi{
+    text-align: center;
+}
+
+.imgcc{
+    text-align: center;
+}
+
+.imgani{
+    text-align: center;
+}
+
+.rodape{
+    color: darkgrey;
+    font-size: 10px;
+    text-align: center;
+    padding: 2px;
+}
+
+@media screen and (max-width:600px){ /*responsividade, troca de tamanho/caracteristicas com a mudança de tamanho de tela*/
+    body, .principal, .conteudo{ /*definir os escopos a serem aterados*/
+        width: 100%;
+        flex-direction: column;
+        padding: 0%;
+    }
+}
